@@ -33,7 +33,7 @@ const Home = () => {
                     className={clicked ? "button clicked" : "button"}
                     onClick={handleClick}
                   >
-                    <h6 style={{backgroundColor:clicked=='white'?'blue':''}}>click here</h6>
+                    <h6 className='btn-btn-primary' style={{backgroundColor:clicked=='white'?'blue':''}}>click here</h6>
                   </button>
     <button className='btn btn-outline-primary'> sec button</button>
                 </div>

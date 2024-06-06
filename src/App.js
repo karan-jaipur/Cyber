@@ -1,22 +1,119 @@
 import React from 'react'
-import Home from './Holi/Home'
-import Coffee from './Holi/Coffee'
-import { BrowserRouter,Routes, Route } from 'react-router-dom'
+import Usecontext from './Context/Usecontext'
+import Useefftabs from './component/Useefftabs'
+import One from './component/Userefjs.js/Api.js/One'
+import Timepass from './Timepass'
 
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home/>}></Route>
-        <Route path='/Coffee' element={<Coffee/>}></Route>
-      </Routes>
-      </BrowserRouter>
+      {/* <Usecontext/> */}
+      {/* <Useefftabs/> */}
+      {/* <One/> */}
+      {/* <Timepass/> */}
     </div>
   )
 }
 
 export default App
+
+
+// import React from 'react'
+// import { BrowserRouter, Route, Routes } from 'react-router-dom'
+// import Home from './Locat/Home'
+// import About from './Locat/About'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <BrowserRouter>
+//       <Routes>
+//         <Route path='/' element={<Home/>}></Route>
+//         <Route path='/About' element={<About/>}></Route>
+//       </Routes>
+//       </BrowserRouter>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// ------------------------------Navigate---------------------------
+// import React from 'react'
+// import Home from './component/Navigate/Home'
+// import Contact from './component/Navigate/Contact'
+// import { BrowserRouter, Routes, Route } from 'react-router-dom'
+// import About from './component/Navigate/About'
+
+
+// const App = () => {
+//   return (
+//     <div>
+      
+//       <BrowserRouter>
+//       <Routes>
+//         <Route path='/' element={<Home/>} ></Route>
+//         <Route path='/Contact' element={<Contact/>} ></Route>
+//         <Route path='/About' element={<About/>} ></Route>
+//       </Routes>
+//       </BrowserRouter>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// ----------------------------------3.4----------------------------------
+// import React from 'react'
+// import Home from './3.4project/Home'
+// // import Nav from './3.4project/Nav'
+// import Contact from './3.4project/Contact'
+// // import Button from './3.4project/Button'
+// import { BrowserRouter,Routes, Route } from 'react-router-dom'
+// // import Three from './3.4project/Three'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <BrowserRouter>
+//       <Routes>
+//         <Route path='/' element={<Home/>}></Route>
+//         <Route path='/Contact' element={<Contact/>}></Route>
+//         {/* <Route path='/Three' element={<Three/>}></Route> */}
+        
+//       </Routes>
+//       </BrowserRouter>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// -------------------------------holi-----------------------------
+// import React from 'react'
+// import Home from './Holi/Home'
+// import Coffee from './Holi/Coffee'
+// import { BrowserRouter,Routes, Route } from 'react-router-dom'
+// import Ref from './component/Userefjs.js/Ref'
+// import Useefftabs from './component/Useefftabs'
+
+// const App = () => {
+//   return (
+//     <div>
+// {/* <Useefftabs/> */}
+//     {/* <Ref/> */}
+//       <BrowserRouter>
+//       <Routes>
+//         <Route path='/' element={<Home/>}></Route>
+//         <Route path='/Coffee' element={<Coffee/>}></Route>
+//       </Routes>
+//       </BrowserRouter>
+//     </div>
+//   )
+// }
+
+// export default App
 
 
 
